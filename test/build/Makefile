@@ -129,6 +129,43 @@ test_timestamp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/build
 .PHONY : test_timestamp/fast
 
+#=============================================================================
+# Target rules for targets named test_currentthread
+
+# Build rule for target.
+test_currentthread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_currentthread
+.PHONY : test_currentthread
+
+# fast build rule for target.
+test_currentthread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/build
+.PHONY : test_currentthread/fast
+
+home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.o: home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.o
+.PHONY : home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.o
+
+# target to build an object file
+home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.o
+.PHONY : home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.o
+
+home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.i: home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.i
+.PHONY : home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.i
+
+# target to preprocess a source file
+home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.i
+.PHONY : home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.i
+
+home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.s: home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.s
+.PHONY : home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.s
+
+# target to generate assembly for a file
+home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.s
+.PHONY : home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.s
+
 home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.o: home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.cc.o
 .PHONY : home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.o
 
@@ -152,6 +189,30 @@ home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.s: home/ubuntu/lbx/Bob_muduo-core/s
 home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.cc.s
 .PHONY : home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.cc.s
+
+test_currentthread.o: test_currentthread.cc.o
+.PHONY : test_currentthread.o
+
+# target to build an object file
+test_currentthread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/test_currentthread.cc.o
+.PHONY : test_currentthread.cc.o
+
+test_currentthread.i: test_currentthread.cc.i
+.PHONY : test_currentthread.i
+
+# target to preprocess a source file
+test_currentthread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/test_currentthread.cc.i
+.PHONY : test_currentthread.cc.i
+
+test_currentthread.s: test_currentthread.cc.s
+.PHONY : test_currentthread.s
+
+# target to generate assembly for a file
+test_currentthread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/test_currentthread.cc.s
+.PHONY : test_currentthread.cc.s
 
 test_timestamp.o: test_timestamp.cc.o
 .PHONY : test_timestamp.o
@@ -185,10 +246,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test_currentthread"
 	@echo "... test_timestamp"
+	@echo "... home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.o"
+	@echo "... home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.i"
+	@echo "... home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.s"
 	@echo "... home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.o"
 	@echo "... home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.i"
 	@echo "... home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.s"
+	@echo "... test_currentthread.o"
+	@echo "... test_currentthread.i"
+	@echo "... test_currentthread.s"
 	@echo "... test_timestamp.o"
 	@echo "... test_timestamp.i"
 	@echo "... test_timestamp.s"

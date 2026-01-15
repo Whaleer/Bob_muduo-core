@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_currentthread.dir/test_currentthread.cc.o "CMakeFiles/test_currentthread.dir/home/ubuntu/lbx/Bob_muduo-core/src/CurrentThread.cc.o" -o /home/ubuntu/lbx/Bob_muduo-core/test/test_currentthread 

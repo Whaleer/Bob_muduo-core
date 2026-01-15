@@ -19,7 +19,16 @@ target_sources(test_timestamp PRIVATE
     ../src/Timestamp.cc
 )
 
+# 添加 CurrentThread 测试
+add_executable(test_currentthread test_currentthread.cc)
+target_sources(test_currentthread PRIVATE
+    ../src/CurrentThread.cc
+)
+
 # 设置输出目录
 set_target_properties(test_timestamp PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+)
+set_target_properties(test_currentthread PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )

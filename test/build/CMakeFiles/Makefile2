@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/lbx/Bob_muduo-core/test/build
 
 # The main recursive "all" target.
 all: CMakeFiles/test_timestamp.dir/all
+all: CMakeFiles/test_currentthread.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/test_timestamp.dir/clean
+clean: CMakeFiles/test_currentthread.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +83,7 @@ clean: CMakeFiles/test_timestamp.dir/clean
 CMakeFiles/test_timestamp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles --progress-num=1,2,3 "Built target test_timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles --progress-num=4,5,6 "Built target test_timestamp"
 .PHONY : CMakeFiles/test_timestamp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +101,32 @@ test_timestamp: CMakeFiles/test_timestamp.dir/rule
 CMakeFiles/test_timestamp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/clean
 .PHONY : CMakeFiles/test_timestamp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_currentthread.dir
+
+# All Build rule for target.
+CMakeFiles/test_currentthread.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles --progress-num=1,2,3 "Built target test_currentthread"
+.PHONY : CMakeFiles/test_currentthread.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_currentthread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_currentthread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_currentthread.dir/rule
+
+# Convenience name for target.
+test_currentthread: CMakeFiles/test_currentthread.dir/rule
+.PHONY : test_currentthread
+
+# clean rule for target.
+CMakeFiles/test_currentthread.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_currentthread.dir/build.make CMakeFiles/test_currentthread.dir/clean
+.PHONY : CMakeFiles/test_currentthread.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
