@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_timestamp.dir/test_timestamp.cc.o "CMakeFiles/test_timestamp.dir/home/ubuntu/lbx/Bob_muduo-core/src/Timestamp.cc.o" -o /home/ubuntu/lbx/Bob_muduo-core/test/test_timestamp 

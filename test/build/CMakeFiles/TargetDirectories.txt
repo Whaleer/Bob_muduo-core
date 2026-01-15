@@ -1,0 +1,3 @@
+/home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles/test_timestamp.dir
+/home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/lbx/Bob_muduo-core/test/build/CMakeFiles/rebuild_cache.dir
